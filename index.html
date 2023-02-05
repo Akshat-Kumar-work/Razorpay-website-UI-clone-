@@ -16,6 +16,11 @@
           padding-bottom: 12rem;
 
       }
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
       .moveImage{
        animation-name: movecomp;
@@ -38,7 +43,7 @@
 </head>
 <body>
 
-
+<div class=" overflow-x-hidden relative w-full" >
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
    <nav class="bg-deepBlue  ">
@@ -501,7 +506,7 @@ z"
 </section>
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!--feature section 2-->
-<section class=" bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover mt-[14] pt-[20rem] pb-[500px]">
+<section class=" overflow-x-hidden bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover mt-[14] pt-[20rem] pb-[500px]">
 
 <div class="w-10/12 max-w-[1080px] pt-[4] mx-auto relative"> 
 <h2 class=" text-white text-center font-mullish leading-[1.2] text-2xl font-bold "
@@ -978,7 +983,7 @@ src="images/razorpayXicon.svg" alt="">
 <!--join razorpay section--> 
 <section class=" relative bg-[#f5f8fe]  pt-40 pb-12 -mt-[200px] -z-[100]">
 
-  <div class=" w-11/12 max-w-[1080px] mx-auto relative  flex flex-row  ">
+  <div class=" w-11/12 max-w-[1080px] mx-auto relative  flex  flex-col lg:flex-row  ">
 
 <!--left part-->
 
@@ -1832,11 +1837,12 @@ class="absolute w-full h-[150px] bottom-0 z-50">
     </div>
   </footer>
 
-
+</div>
 
 
 <script>
     feather.replace()
     </script>
+    </div>
 </body>
 </html>
